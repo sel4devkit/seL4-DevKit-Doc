@@ -177,7 +177,7 @@ void initialise_driver_data(void) {
 }
 ```
 
-As support for additional optional objects (e.g. drivers, driver classes, commands, etc.) are added for a platform, these files will be updated to reference the associated objects. See the files for the Avnet MaaXBoard platform for an example of these how these files provide more extensive support.
+As support for additional optional objects (e.g. drivers, driver classes, commands, etc.) are added for a platform, these files will need to be updated to reference the associated objects. See the files for the Avnet MaaXBoard platform for an example of these how these files provide more extensive support.
 
 ## Add support to example application
 
@@ -209,7 +209,7 @@ The following empty template file needs to be added to the application `include/
 #define HARDWARE_CONFIGURATION
 ```
 
-As support for devices is added for a platform, this file will be updated to reference those devices from the platform's device tree. See the file for the Avnet MaaXBoard platform for an example that provides more extensive support.
+As support for devices is added for a platform, this file will need to be updated to reference those devices from the platform's device tree. See the file for the Avnet MaaXBoard platform for an example that provides more extensive support.
 
 ## Guidance on next steps
 

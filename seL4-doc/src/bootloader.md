@@ -50,7 +50,7 @@ Or a network connection via a hub / router:
 
 ![TFTP option router connection](figures/TFTP-option-router.png)
 
-Loading via TFTP is considered to be the most convenient method within an application development environment as there is no need to keep plugging and unplugging anything from the board. To load the `sel4_image` binary via TFTP, the file needs to be made available for download from the TFTP server.
+Loading via TFTP is considered to be the most convenient method within an application development environment as there is no need to keep plugging and unplugging anything from the board. To load the `sel4_image` binary via TFTP, the file needs to be made available for download from the TFTP server. A linux example of setting this server up is included in the [appendix](appendices/tftpboot_example.md).
 
 ### U-Boot Configuration File
 

@@ -55,3 +55,4 @@
 - [Library Extension - Troubleshooting](./appendices/driver_troubleshooting.md)
 - [Odroid-C2 Platform - Worked Example](./appendices/add_odroidc2.md)
 - [Using the Developer Kit Offline](./appendices/devkit_offline_use.md)
+- [Setting up a TFTP server](./appendices/tftpboot_example.md)
