@@ -29,8 +29,6 @@ In order to build U-Boot, the seL4devkit Docker build environment is required, p
 
 Whilst an understanding of how the build script ([`build.sh`](https://github.com/sel4devkit/maaxboard-uboot/blob/main/build.sh)) functions is not required for most use cases, such information is useful in case the developer has a need to modify the script. For example, it may be necessary to adapt the script for a different board or to update the script to use a different version or fork of U-Boot.
 
-It is worth noting that `build.sh` does not produce a U-Boot image containing HDMI firmware, i.e. it builds an image only suitable for use of the board in 'headless' mode. If display output is required the build script will need to be modified to configure U-Boot with the device tree variant and include firmware for the desired display output (e.g. HDMI or MIPI-DSI)
-
 This section seeks to document the origins of the script and provide guidance on potential modifications.
 
 ### Origin and rationale
